@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://127.0.0.1:5500/conference%20page/layout.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=&lt;device-width&gt;, initial-scale=1.0">
+    <link href="./link_files/css2" rel="stylesheet">
+    <title>Conference Page</title>
+    <link rel="stylesheet" href="./link_files/design.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-part1">
+            <div class="heading">
+                <p style="margin-top: 10px;">STYLES<br> CONFERENCE</p>
+            </div>
+            <div class="date">
+                <div class="event-date">
+                    <h4 class="property">August 24–26th — Chicago, IL</h4>
+                </div>
+                <div class="information">
+                    <div>
+                        <h6 class="space-between">HOME</h6>
+                    </div>
+                    <div>
+                        <h6 class="space-between">SPEAKERS</h6>
+                    </div>
+                    <div>
+                        <h6 class="space-between">SCHEDULE</h6>
+                    </div>
+                    <div>
+                        <h6 class="space-between">VENUE</h6>
+                    </div>
+                    <div>
+                        <h6 class="space-between">REGISTER</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-part2">
+            <p class="para">Dedicated to the Craft of Building Websites</p>
+            <p class="para2">Every year the brightest web designers and front-end developers descend on</p>
+            <p class="para2"> Chicago to discuss the latest tech logies. Join us this August!</p>
+            <button class="register">REGISTER NOW </button>
+        </div>
+    </header>
+    <div>
+        <div class="event-information">
+            <div class="speakers measurements">
+                <h5 style="font-weight: 500; font-size: 14px;">SPEAKERS</h5>
+                <img src="./link_files/speakers.jpg" alt="professional speaker" class="teaser-img">
+                <h3 style="font-weight: 400;  color: #648880">World-Class Speakers</h3>
+                <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.
+                </p>
+            </div>
+            <div class="duration measurements">
+                <h5 style="font-weight: 500; font-size: 14px;">SCHEDULE</h5>
+                <img src="./link_files/schedule.jpg" alt="Schedule" class="teaser-img">
+                <h3 style="font-weight: 400;  color: #648880">Three Inspiring Days</h3>
+                <p>Enjoy three inspiring and action-packed days of tals, gatherings, and all-around good times.</p>
+            </div>
+            <div class="venue measurements">
+                <h5 style="font-weight: 500; font-size: 14px;">VENUE</h5>
+                <img src="./link_files/venue.jpg" alt="venue" class="teaser-img">
+                <h3 style="font-weight: 400; color: #648880;">The Chicago Theatre</h3>
+                <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.
+                </p>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="end">
+                <div class="alignment">
+                    <p class="font-size" style="color:#648880;">© Styles Conference</p>
+                </div>
+                <div class="foot">
+                    <div class="space font-size" style="color: white;    font-weight: 300;">Home</div>
+                    <div class="space font-size" style="color: white;    font-weight: 300;">Speakers</div>
+                    <div class="space font-size" style="color: white;    font-weight: 300;">Schedule</div>
+                    <div class="space font-size" style="color: white;    font-weight: 300;">Venue</div>
+                    <div class="space font-size" style="color: white;    font-weight: 300;">Register</div>
+
+                </div>
+            </div>
+
+        </footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></body></html>

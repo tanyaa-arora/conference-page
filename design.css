@@ -1,0 +1,158 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+body{
+    margin: 0px;
+    font-family: "Lato",sans-serif;
+}
+.top-part1{
+    display: flex;
+    justify-content: space-between;
+    background-color:#293f50;
+  
+}
+.heading{
+    width: 30%;
+    background-color:#293f50;
+    margin: 0px 10px 30px 300px;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 100;
+    
+  
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color:#293f50;
+    margin: 10px 300px 30px 10px;
+
+
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+}
+.top-part2{
+     background-color:#293f50;
+     text-align: center;
+     padding-bottom: 60px;
+}
+.para{
+    margin-top: 0px;
+    color: #648880;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0px;
+
+}
+.register{
+    background-color:#293f50;
+    padding: 25px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    border-color: #FFF;
+    border-style: solid;
+    border-width: 1px;
+}
+.event-date{
+    padding-left: 180px;
+    color: #648880;
+
+}
+.space-between{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.property{
+    font-size: 21px;
+    font-weight: 300;
+}
+.para2{
+    font-size: 24px;    
+    color: white;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.teaser-img{
+    border-radius: 5px;
+    height: 198px;
+    width: 280px;
+}
+.event-information{
+    display: flex;
+    justify-content: center;
+
+}
+.measurements{
+    width: min-content;
+    color: #a9b2b9;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.duration{
+    margin-left: 30px;
+    margin-right: 30px;    
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    background-color: #293f50;
+    height: 100px;
+    padding-left: 300px;
+;
+}
+.foot{
+    display: flex;
+    text-align: center;
+    padding-right: 250px;
+    padding-top: 40px;
+    
+}
+.space{
+    margin: 0px 10px;
+}
+.font-size{
+    font-size: 14px; 
+}
+.alignment{
+    padding-top: 25px;
+} */
+#fruits-el{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    margin-top: 280px;
+}
+
+#apple-el{
+    height: 40px;
+    width: 300px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin: auto;
+    border-style: solid;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#orange-el{
+    height: 40px;
+    width: 300px;
+    background-color: darkseagreen;
+    border-radius: 5px;
+    margin: auto;
+    border-style: solid;
+    text-align: center;
+    padding-top: 20px;
+
+}
+body{
+    background-color: tomato;
+}
